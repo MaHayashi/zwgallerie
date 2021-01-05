@@ -1,0 +1,202 @@
+
+
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+section {
+font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.articles {
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+.article {
+	margin-bottom: 10px;
+}
+
+.article:hover {
+	border: 1px solid white;
+
+}
+
+.xoo {
+	margin: 2px;
+}
+
+
+.nav-link:hover {
+	border-bottom: 1px solid white;
+}
+
+.nav-item {
+	background-color: black;
+}
+
+.navbar {
+	background-color: black;
+	position: fixed;
+}
+
+.current {
+	margin-top: 80px;
+}
+
+
+.navbar-brand {
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+
+h1 {
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+h6 {
+ font-size: 0.7rem;
+ margin: 0;
+ color: #7E7E78;
+}
+
+h2 {
+ margin-top: 20px;
+ margin-bottom: 3px;
+}
+
+.titulo {
+	padding-left: 10px;
+background: rgb(0,0,0);
+	height: 48px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	color: white;
+	border-radius: 2px 2px 0 0;
+}
+
+.titulo a {
+	color: white;
+}
+
+.titulo a:hover {
+	color: #B9BFBF;
+	text-decoration: none;
+}
+
+.tituloarticles {
+	padding-left: 10px;
+background: rgb(0,0,0);
+	height: 48px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.tituloarticles a {
+	color: white;
+}
+
+
+.conteudo {
+	font-size: 0.8rem;
+	font-weight: lighter;
+	padding-left: 10px;
+	padding-right: 2px;
+	color: white;
+	line-height: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	border-radius: 0 0 2px 2px;
+}
+
+.caixa {
+	margin-bottom: 15px;
+}
+
+.caixa:hover {
+	margin-bottom: 15px;
+	border: 1px solid white;
+}
+
+
+
+
+span {
+	font-size: 10px;
+	font-weight: 600;
+}
+
+
+ul li {
+ text-decoration: none;
+}
+
+.cidade {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 9rem;
+	margin: 0;
+	padding: 0;
+	line-height: 8rem;
+	background-color: black;
+}
+
+.cidade a {
+	color: white;
+}
+
+.cidade a:hover {
+	color: #B9BFBF;
+	text-decoration: none;
+}
+
+.cidadescaixa {
+	margin-top: 60px
+}
+
+.artwork {
+	font-size: 0.5rem;
+}
+
+blockquote {
+	font-size: 0.5rem;
+}
+
+@media (max-width: 576px) {
+	.cidade {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.8rem;
+	margin: 0;
+	padding: 0;
+	line-height: 3.8rem;
+	background-color: black;
+}
+
+@media (min-width: 768px) {
+	.cidade {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 6rem;
+	margin: 0;
+	padding: 0;
+	line-height: 6rem;
+	background-color: black;
+}
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
